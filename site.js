@@ -31,9 +31,15 @@ const vue_app = Vue.createApp({
       },
       data() {
         return {
+
+          //experimential thingy
+          age:45,
             // This holds your movies.json data.
             movies: [],
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
+            title: "Davis' top 5 Movies",
+            owner: "Jonathan",
+            github: "Google.com"
       }
     },
       methods: {
