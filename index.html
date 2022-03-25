@@ -23,7 +23,7 @@
   <body>
 	<div class="container" id="vue_app">
 
-		<h1> {{ age }} </h1>
+		<!--<h1> {{ age }} </h1> -->
 	    <div class="header">
 
 	      <div class="container">
@@ -36,7 +36,7 @@
 	    <div class="main">
 
 				<div class="container">
-	        <h1 id="app_title">%title%</h1>
+	        <h1 id="app_title">{{ title }}</h1>
 	      </div>
 
 	    </div>
@@ -70,8 +70,8 @@
 
 	    <div class="footer">
 	      <div class="container">
-			<a id="github" class="btn btn-lg btn-warning">
-				<i class="fa fa-lg fa-github pull-left" aria-hidden="true"></i>%owner% %github%
+			<a id="github" class="btn btn-lg btn-warning" href="https://122jdavis.github.io/Davis-P3/">
+				<i class="fa fa-lg fa-github pull-left" aria-hidden="true"></i>{{ github }} {{ owner }}
 	  		</a>
 	      </div>
 	    </div>

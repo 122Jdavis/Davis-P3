@@ -39,7 +39,7 @@ const vue_app = Vue.createApp({
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
             title: "Davis' top 5 Movies",
             owner: "Jonathan",
-            github: "Google.com"
+            github: "https://122jdavis.github.io/Davis-P3/"
       }
     },
       methods: {
