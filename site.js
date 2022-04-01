@@ -87,6 +87,9 @@ const vue_app = Vue.createApp({
 
               //console.log(this.released[1])
             }
+            like(index){
+              something
+            }
       }
 })
 
