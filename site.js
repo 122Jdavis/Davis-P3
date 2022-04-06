@@ -92,6 +92,9 @@ const vue_app = Vue.createApp({
                 this.movies[index].posterindex=0;
               } else
                this.movies[index].posterindex++;
+            },
+            timeText(minutes){
+
             }
       }
 })
